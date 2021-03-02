@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+html,body{
+    min-height: 100vh; 
+    
+}
+header{
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    background-color: whitesmoke;
+    border-bottom: solid 0.25px rgba(0, 0, 0, 0.384);
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+   
+}
