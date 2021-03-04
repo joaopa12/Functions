@@ -1,9 +1,19 @@
+function sequence(random){
+     if (random >= random) {
+          return randomx
+     }
+ } 
+
 function printDouble(number){
+     let random = Math.floor(Math.random() * 100) + 1
+     
+     sequence(random)
+      
      setTimeout(
         function(){
              console.log(number * 2)
         },
-        Math.floor(Math.random() * 100) + 1
+        random
      )
 }
 
@@ -16,4 +26,4 @@ function printAll(){
 }
 
 printAll()
-
+/* Math.floor(Math.random() * 100) + 1 */
