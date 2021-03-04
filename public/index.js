@@ -1,13 +1,5 @@
-function sequence(random){
-     if (random >= random) {
-          return randomx
-     }
- } 
-
 function printDouble(number){
      let random = Math.floor(Math.random() * 100) + 1
-     
-     sequence(random)
       
      setTimeout(
         function(){
