@@ -40,9 +40,9 @@ function printAll1(){
 /*printAll1()*/
 
 function sumNumber(number,number2,callback){ 
+    const sum = (number * 2) + number2
     setTimeout(
-       function(){
-            
+       function(){ 
             callback( null, sum )
        },
        0
@@ -58,7 +58,7 @@ function printAll2(){
             console.log(error)
         }
         console.log(
-            sum
+            `Resultado é ${sum}`
         )
     })
 }
