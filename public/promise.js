@@ -24,11 +24,11 @@ function sumNumbers(number, number2){
   })
 }
 
-async function printAll() {
+async function printAll2() {
   let result;
 
   result = sumNumbers(5,10)
   result = sumNumbers(10,20)
   result = sumNumbers(20,40)
 }
-printAll()
+printAll2()

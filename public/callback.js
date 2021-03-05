@@ -10,7 +10,7 @@ function printDouble(number, callback){
     )
 }
 
-function printAll(){
+function printAll1(){
     printDouble(5 , function (error, number) {
         if (error) {
             console.log(error)
@@ -37,4 +37,30 @@ function printAll(){
     })  
 }
 
-printAll()
+/*printAll1()*/
+
+function sumNumber(number,number2,callback){ 
+    setTimeout(
+       function(){
+            
+            callback( null, sum )
+       },
+       0
+    )
+    console.log(
+        `O dobro do numero ${number} mais ${number2} é igual a ${sum}`
+    )
+}
+
+function printAll2(){
+    sumNumber(2,4,function(error, sum){
+        if (error) {
+            console.log(error)
+        }
+        console.log(
+            sum
+        )
+    })
+}
+
+printAll2()
