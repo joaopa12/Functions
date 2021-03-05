@@ -5,7 +5,7 @@ function printDouble(number) {
       }, 0)
     })
   }
-  
+   
 
 async function printAll() {
    printDouble(5)
