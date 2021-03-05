@@ -12,7 +12,7 @@ async function printAll1() {
    printDouble(10)
    printDouble(15)
 }
-printAll1()
+/*printAll1()*/
 
 function sumNumbers(number, number2){
   return new Promise(function(resolver){
@@ -20,7 +20,7 @@ function sumNumbers(number, number2){
         const sum = (number * 2) + number2
         console.log(sum)
         resolver(sum)
-    }, 0)
+    }, 250)
   })
 }
 
