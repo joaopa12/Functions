@@ -17,14 +17,3 @@ server.get("/", function (req, res) {
 server.listen(5000, function () {
   console.log('Server rodando!')
 })
-
-/* Se o get estiver depois do 404 nao pega*/
-/*  const curso = dataD.find(function(video){
-          if(video.id == id){
-              return video.id = id
-          }
-          if(!video){
-            return res.send("video not found")
-        }
-      })
-      return res.render("curso", {cursin:curso}) */
