@@ -3,7 +3,7 @@ function printDouble(number, callback){
        function(){
             callback( null, number * 2 )
        },
-       0
+       Math.floor(Math.random() * 100) + 1
     )
     console.log(
         `O dobro do numero ${number}`
