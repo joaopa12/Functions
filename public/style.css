@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -5,8 +7,8 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Montserrat', sans-serif;
-    
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(28, 25, 25);
 }
 html,body{
     min-height: 100vh; 
@@ -15,9 +17,10 @@ html,body{
 header{
     width: 100%;
     text-align: center;
-    padding: 30px;
-    background-color: whitesmoke;
-    border-bottom: solid 0.25px rgba(0, 0, 0, 0.384);
+    padding: 26px;
+    color: white;
+    background-color: rgb(43, 40, 40);
+    border-bottom: solid 3px rgba(0, 0, 0, 0.384);
     font-size: 12px;
     text-transform: uppercase;
 }
