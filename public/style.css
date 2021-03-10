@@ -25,7 +25,7 @@ header{
     text-transform: uppercase;
 }
 .title{
-    width: 800px;
+    width: 650px;
     margin: 0 auto;
 }
 .container{
@@ -34,14 +34,22 @@ header{
     height: 100vh;
     display: flex;
     flex-direction: column;
-   
+    
 }
 .inputs{
-    width: 550px;
+    width: 650px;
     margin: 0 auto;
+    padding: 40px 0px;
 }
 .inputs input{
     width: 100%;
     padding: 10px 8px;
     border-radius: 4px;
+}
+.inputs div :first-child{
+    padding: 16px 0px;
+    font-size: 24px;
+    font-weight: bolder;
+    color: white;
+    text-transform: uppercase;
 }
