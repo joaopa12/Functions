@@ -17,4 +17,20 @@ function printAll(){
      printDouble(90)
 }
 
-printAll()
+/*printAll()*/
+
+const Mask = {
+     apply(input,func){
+          input.value = Mask[func](input.value)
+     },
+     Percent(value){
+          value = value.replace(/\D/g, "")
+
+          return value = new Intl.NumberFormat('pt-br',{
+               maximumSignificantDigits: 4,
+               minimumSignificantDigits: 2,
+               style:"percent",
+               currency:"BRL"
+          }).format(value/10000)
+     }
+}
