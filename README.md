@@ -63,3 +63,7 @@ Modelar um banco de dados que represente um sistema de locação de carros. Resp
 
 - Número percentual com no mínimo duas casas após a vírgula e no máximo 4 (foi utilizado o `NumberFormat` da biblioteca [Intl](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat));
 - CPF (xxx.xxx.xxx-xx).
+
+ ## ℹ️ Resultados:
+ <br>
+ ![TeladeInicio](./public/assets/Tela.gif)
