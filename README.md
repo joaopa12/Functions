@@ -42,7 +42,7 @@ Por fim, faça novamente o tratamento desse assincronismo utilizando utilizando 
 
 ### DBML
 
-modelagem de um banco de dados que represente um sistema de locação de carros. Respeite as seguintes regras:
+Modelar um banco de dados que represente um sistema de locação de carros. Respeite as seguintes regras:
 
 - O BD deve possuir no mínimo 6 tabelas:
   - `customers` - clientes que alugam os carros;
@@ -58,3 +58,8 @@ modelagem de um banco de dados que represente um sistema de locação de carros.
 - O relacionamento entre cliente e pedido deve ser 1:n;
 - O relacionamento entre agência e pedido deve ser 1:n;
 - O relacionamento entre carro e pedido deve ser n:m (um mesmo pedido pode abranger múltiplos carros e o mesmo carro pode ter sido locado mais de uma vez);
+
+### Mascara de Input - Cpf & Porcentagem <br>
+
+- Número percentual com no mínimo duas casas após a vírgula e no máximo 4 (foi utilizado o `NumberFormat` da biblioteca [Intl](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat));
+- CPF (xxx.xxx.xxx-xx).
