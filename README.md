@@ -64,5 +64,29 @@ Modelar um banco de dados que represente um sistema de locação de carros. Resp
 - Número percentual com no mínimo duas casas após a vírgula e no máximo 4 (foi utilizado o `NumberFormat` da biblioteca [Intl](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat));
 - CPF (xxx.xxx.xxx-xx).
 
+## 💻 Como executar:
+
+1.  **Clone o projeto.**
+
+    ```shell
+    git clone https://github.com/joaopa12/Functions
+    ```
+
+2.  **Instalação**
+
+    Instale as dependencias da aplicação.
+
+    ```shell
+    npm install
+    ```
+
+3.  **Rode a Aplicação**
+
+    ```shell
+    npm start
+    ``` 
+  <br>   
+ 
+
  ## ℹ️ Resultado:
  ![TeladeInicio](./public/telacpf.gif)
