@@ -65,4 +65,4 @@ Modelar um banco de dados que represente um sistema de locação de carros. Resp
 - CPF (xxx.xxx.xxx-xx).
 
  ## ℹ️ Resultado:
- ![TeladeInicio](./public/assets/Tela.gif)
+ ![TeladeInicio](./public/telacpf.gif)
